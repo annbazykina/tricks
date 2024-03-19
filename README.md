@@ -16,6 +16,9 @@ const countOccurrences = (str, char) => str.split(char).length - 1;
     text-overflow: ellipsis;
   }
 }
+.value-wrapper {
+  width: 100%;
+}
 
 // .truncate-value a {
 // }
